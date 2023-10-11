@@ -1,26 +1,40 @@
-.text-primary {
-    color: #3f454d !important;
-   
-}
-.bg-primary {
-    background-color: #3f454d !important;
-    
+
+.text-primary{
+    color:#3f454d !important;
 }
 
-.text-secondary {
-    color: rgb(37 176 169) !important;
-    
+.bg-primary{
+    background-color:#3f454d !important;
 }
-.bg-secondary {
-    background-color: rgb(37 176 169) !important;
+.text-secondary{
+   color:#00afaa !important;
+}
+.bg-secondary{
+   background-color:#00afaa !important;
 }
 .banner{
-    background-image: url(../images/ima.jpg);
+    background-image:url(../images/ima.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.459);
-    background-blend-mode: multiply;
     padding: 180px 0;
-
+}
+.feature{
+    background: #a9a8a833;
+   
+}
+.contact{
+    background-color: #1B222C;
+}
+footer{
+    background:#3F454D;
+    
+}
+footer a {
+    text-decoration: none;
+}
+footer li{
+    color:#ffffff7a;
+    list-style: none;
+    padding: 10px 0;
 }
